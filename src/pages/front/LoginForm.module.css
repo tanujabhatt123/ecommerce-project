@@ -1,0 +1,65 @@
+.mainContent{
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	margin: 5em auto;
+	display: flex;
+}
+
+.fa-android{
+	font-size:3em;
+}
+@media screen and (max-width: 640px) {
+	.mainContent{width: 100%;}
+
+	.loginForm{
+		border-radius: 20px;
+	}
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+	.mainContent{width: 100%;}
+}
+.row > h2{
+	color:#008080;
+}
+.loginForm{
+	background-color: #fff;
+	border-radius: 20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+form{
+	padding: 0 2em;
+}
+.formInput{
+	width: 100%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:1.5em auto;
+	transition: all .5s ease;
+}
+.formInput:focus{
+	border-bottom-color: #3b5d50;
+	box-shadow: 0 0 5px #3b5d50; 
+	border-radius: 4px;
+}
+.btn{
+	transition: all .5s ease;
+	width: 100%;
+	border-radius: 30px;
+	color:#3b5d50;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #3b5d50;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+    padding: 10px 0px;
+}
+.btn:hover, .btn:focus{
+	background-color: #3b5d50;
+	color:#fff;
+}
