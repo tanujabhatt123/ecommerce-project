@@ -11,7 +11,7 @@ export const initialState = [{
     name: "image",
     type: "file",
     value: "",
-    required: false,
+    required: true,
     description: "Please select image",
     touched: false,
     status: ""
