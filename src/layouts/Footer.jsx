@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer-section mt-5">
       <div className="container relative">
         <div className="sofa-img mt-5">
-          <img src="/images/sofa.png" alt="Images" className="img-fluid mt-4" />
+          <img src="/images/sofa-gtm.png" alt="Images" className="img-fluid mt-4" />
         </div>
 
         <div className="border-top copyright">

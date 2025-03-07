@@ -1,64 +1,94 @@
-export const initialState = [{
+export const initialState = [
+  {
     name: "name",
     type: "text",
     value: "",
     required: true,
     description: "Please enter name",
     touched: false,
-    status: ""
-},
-{
+    status: "",
+  },
+  {
     name: "image",
     type: "file",
     value: "",
-    required: true,
+    required: false,
     description: "Please select image",
     touched: false,
-    status: ""
-},
-{
+    status: "",
+  },
+  {
     name: "email",
     type: "email",
     value: "",
     required: true,
     description: "Please enter your email id",
     touched: false,
-    status: ""
-},
-{
+    status: "",
+  },
+  {
     name: "password",
     type: "password",
     value: "",
     required: true,
     description: "Please enter your password",
     touched: false,
-    status: ""
-},
-{
+    status: "",
+  },
+  {
     name: "contactNumber",
     type: "text",
     value: "",
     required: false,
     description: "Please enter your contact number",
     touched: false,
-    status: ""
-},
-{
+    status: "",
+  },
+  {
     name: "role",
     type: "select",
     value: "Customer",
     required: false,
     description: "Please select role",
     touched: false,
-    status: ""
-},
-{
+    status: "",
+  },
+  {
     name: "status",
     type: "select",
     value: "active",
     required: false,
     description: "Please select status",
     touched: false,
-    status: ""
-}
-]
+    status: "",
+  },
+];
+export const initialStateRegister = [
+  {
+    name: "name",
+    type: "text",
+    value: "",
+    required: true,
+    description: "Please enter name",
+    touched: false,
+    status: "",
+  },
+  {
+    name: "email",
+    type: "email",
+    value: "",
+    required: true,
+    description: "Please enter your email id",
+    touched: false,
+    status: "",
+  },
+  {
+    name: "password",
+    type: "password",
+    value: "",
+    required: true,
+    description: "Please enter your password",
+    touched: false,
+    status: "",
+  },
+];
